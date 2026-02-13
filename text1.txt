@@ -1,2 +1,5 @@
 pip install nltk
+ pip install --upgrade pip
 pip install re
+
+pip freeze > requirements.txt
