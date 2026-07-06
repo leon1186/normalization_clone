@@ -1,5 +1,18 @@
 pip install nltk
- pip install --upgrade pip
+pip install --upgrade pip
 pip install re
 
 pip freeze > requirements.txt
+
+
+to have access to shell:
+type python 
+
+ import nltk
+  nltk.download('punkt')
+  nltk.download('stopwords')
+  nltk.download('wordnet')
+  nltk.download('averaged_perceptron_tagger')
+
+
+  add all of it.
